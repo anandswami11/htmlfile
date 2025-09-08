@@ -1,0 +1,401 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+      width: 1100px;
+    height: 100%; 
+    margin: auto;
+}
+/* home page start */
+.anand{
+    background-image: url('/images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+/* navbar start*/
+
+nav{
+    z-index: 3;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color: black;
+    position: relative;
+    height: 70px;
+    opacity: 0.7;
+}
+
+.logo img{
+          background-color: rgb(17, 17, 17);
+           width: 100px;
+            height: auto; 
+}
+
+nav ul{
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    width: 100%;
+    float: right;
+    /* margin: auto; */
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+.icon{
+    color: white; 
+    display: flex;
+     justify-content: center;  
+}
+.anand .home_text{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    
+}
+
+/* home page end */
+/* about page start */
+.about_page{
+     width: 90%;
+      margin: auto;
+       display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+         }
+
+.about-us,.about-vision,.about-mission,.about-key{
+       color: #EA4800;
+    font-size: 26px; 
+    margin-top: 25px;
+    font-weight: 500;
+}
+.about-us-p,.about-vision-p,.about-mission-p,.about-key-p{
+margin-top: 20px;
+        font-family: "Poppins", Sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2cap;
+}
+.about-hight{
+    font-weight: 700;
+}
+
+.about_page{
+    padding: 80px 0px;
+    align-items: center;
+}
+.about-left{
+    width: 50%;
+    float: left;
+}
+.about-key-p{ 
+ line-height: 13px;
+  margin-left: 30px;
+}
+.about-key-p li{
+      line-height: 3cap;
+}
+.about-right{
+    width: 50%;
+}
+.about-right img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+/* about page end */
+/* servive page start */
+.services{
+    padding-top: 30px;
+     width: 100%;
+      height: 100%; 
+      float: left;
+       background-color: color(xyz 0.07 0.05 0.28);
+}
+.services-head{
+      color: white;
+       font-weight: 600;
+        margin-top: 50px; 
+        font-size: 45px;
+         text-align: center;
+}
+.services-line{
+      width: 90%;
+       margin: auto;
+        color: white; 
+        line-height: 27px;
+         margin-top: 30px;
+}
+.services-img{
+
+   float: left; 
+   display: flex;
+   justify-content: space-evenly;
+    width: 100%; 
+    margin-bottom: 80px;
+     margin-top: 50px;
+      flex-wrap: wrap; 
+}
+.services-img img{
+    width: 21%;
+}
+.c-Service{
+  width:100%;
+   padding-top: 50px; 
+ float: left;
+} 
+.c-Service-2{
+      width: 100%;
+       float: left;
+}
+.service2-point{
+ color: #EA4800;
+ float: left; 
+ width: 100%; 
+ font-weight: 800;
+  font-size: 45px; 
+  text-align: center;
+}
+    .c-Service-box2{ 
+         width: 30%;
+         background-color: rgb(255, 253, 253);
+    } 
+    .c-Service-img img{
+          width: 100%;
+    }
+/* service page end */
+/* it-service page start */
+.it-service{
+    float: left;
+     width: 100%;
+      margin-top: 50px;
+       display: flex;
+     justify-content: space-between; 
+}
+.it-box-text{
+    font-size: 24px; 
+    color: #1f2c33;
+     text-align: center;
+      font-weight: 600; 
+      margin-bottom: 25px;
+}
+ .it-il-line {
+    line-height: 24px;
+     color: #626769;
+}
+.it-text-box{
+ text-align: center;
+  line-height: 24px;
+   font-size: 16px;
+    color: #626769;
+} 
+/* services page end */
+/* industry page start */
+.industryscreen-box{
+    width: 100%;
+    float: left;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+.industry-name{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #494848;
+    margin-bottom: 30px;
+}
+.industry{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.industry img{
+    width: 23%;
+      margin: 1%;
+}
+.indu-img img{
+    
+    margin: 1%;
+    width: 22%;
+}
+.phone-num p{
+    padding: 10px;
+}
+.phone-num p .fa{
+    padding-right: 10px;
+
+}
+/* .industry page end */
+/* .contact page start */
+.contact {
+width: 100%;
+height: 100%;
+padding: 80px 0px;
+ float: left; 
+  background-color: rgb(235, 236, 236); 
+  display: flex;
+   flex-wrap: wrap; 
+   align-items: center;
+    justify-content: space-evenly;
+}
+.contact-box2, .contact-box3, .contact-box1{
+    width: 30%;
+}
+h2 .contact-us{
+color: rgb(49, 49, 49);
+ padding-bottom: 20px;
+  font-size: 34px; 
+}
+/* .contact page end */
+
+@media screen and (max-width: 1100px)  {
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 950px){
+     nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: black;
+        gap: 0;
+        overflow: hidden;
+    }
+    .c-Service-img img {
+        width: 100%;
+    }
+    .c-Service-box2{
+        width: 40%;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    .contact-box2, .contact-box3, .contact-box1{
+    width: 40%;
+}
+.contact-box3{
+    margin-top: 80px;
+}
+
+}
+@media (max-width: 800px){
+    .about-left{
+        display: block;
+        width: 100%;
+        /* float: left; */
+    }
+    .about-right{
+        /* float: none; */
+        /* float: left; */
+         width: 100%;
+    }
+    .services-head{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .services-img img{
+    width: 42%;
+    margin: 4%;
+     border: 2px solid red"
+}
+.service2-point {
+    font-size: 35px;
+    font-weight: 700;
+}
+.it-service{
+    display: flex;
+    flex-wrap: wrap;
+}
+.industry img{
+    width: 48%;
+}
+   
+    .indu-img img{
+    
+    margin: 1%;
+    width: 47%;
+}
+.contact-box2,.contact-box3,.contact-box1{
+    width: 80%;
+    display: inline-block;
+}
+.contact-box2{
+    margin-top: 80px;
+}
+}
+
+@media (max-width:650px){
+ .c-Service-box2{
+        width: 90%;
+        padding: 30px;
+        margin: auto;
+    }
+}
+    
+
+@media (max-width:500px){
+    
+    .services-img img{
+        width: 90%;
+    }
+    .services-head{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .service2-point {
+    font-size: 35px;
+    font-weight: 700;
+}
+.industry img{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.indu-img img{
+    margin: 5%;
+    width: 90%;
+}
+}
