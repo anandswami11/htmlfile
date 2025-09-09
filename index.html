@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body style="font-family: sans-serif">
@@ -17,7 +21,7 @@
       <div class="navbar">
       <nav>
         <div  class="logo">
-          <img src="/images/logo-img1.png">
+          <img src="/images/logo-2.jpeg">
         </div>
         <ul id="menuList">
           <li><a href="#home.html">Home</a></li>
@@ -28,11 +32,12 @@
           <li><a href="#contact.html">Contact</a></li>
           <!-- <li><a href="#careers.html">careers</a></li> -->
         </ul>
-        <div class="menu-icon">
-          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+          <div class="menu-icon">
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
         </div>
         <div class="icon">
-        <i class="fa fa-youtube" style="cursor: pointer; font-size:25px"></i>
+          <!-- <i class="fa fa-youtube-play" style="font-size:36px"></i> -->
+        <i class="fa fa-youtube-play" style="cursor: pointer; font-size:25px"></i>
         <i class="fa fa-linkedin" style="cursor: pointer; padding-left: 16px; font-size: 25px"></i>
          <i class="fa fa-instagram" style="cursor: pointer; padding: 0px 16px ; font-size:25px"></i>
          <i class="fa fa-twitter" style="cursor: pointer; font-size:25px"></i>
@@ -192,14 +197,14 @@
 <!-- contact page start -->
     
       <section id="contact.html" class="contact">
-     <div class="contact-box1"><img style="width: 100%;" src="/images/logo-img.png" alt="logo-img"></div> 
+     <div class="contact-box1"><img style="width: 100%;" src="/images/logo-2.jpeg" alt="logo-img"></div> 
      <div class="contact-box2">
       <h2 class="contact-us">Contact us</h2>
       <div  class="phone-num">
       <p>  <i style="color: #5a43ef; font-size:18px" class="fa">&#xf095;</i><span style="color: rgb(48, 47, 47);"> 0123456789</span></p>
       <p>  <i style="color: #5a43ef; font-size:18px" class="fa">&#xf095;</i><span style="color: rgb(22, 22, 22);">0123456777, 0000444422</span> </p>
-       <p> <i style="color: #5a43ef; font-size:18px" class="fa">&#xf041;</i> <span style="color: rgb(48, 47, 47);">gujrat</span></p>
-        <p><i style='color: #5a43ef; font-size:18px' class='fa'>&#xf674;</i> <span style="font-size: 21px; color: rgb(49, 49, 49);">Address:</span>
+       <p> <i style="color: #5a43ef; font-size:18px" class="fa">&#xf674;</i><span style="color: rgb(48, 47, 47);">gujrat@gmail.com</span></p>
+        <p><i style="color: #5a43ef; font-size:18px" class="fa">&#xf041;</i> <span style="font-size: 21px; color: rgb(49, 49, 49);">Address:</span>
         <p style="margin-left: 40px; color: rgb(48, 47, 47); line-height: 32px;">
           aaann123@gmail.com 	Railway Station, 32, sasoon rd, near pune, central excise colony, 
           sangamvadi, pune, maharashtra 411001, india</p></p>
@@ -209,22 +214,22 @@
 </section>
     </div>
     <!-- contact page end -->
-
-  <script>
-    let menuList = document.getElementById("menuList")
-    menuList.style.maxHeight = "0px";
-
-    function toggleMenu() {
-      if (menuList.style.maxHeight == "0px") {
-        menuList.style.maxHeight = "300px";
-      }
-      else {
+ <script>
+        let menuList = document.getElementById("menuList")
         menuList.style.maxHeight = "0px";
-      }
-    }
 
-  </script>
-  <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
